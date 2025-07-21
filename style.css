@@ -1,0 +1,90 @@
+/* Reset and base styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family:'Times New Roman', Times, serif;
+    background: linear-gradient(135deg, #87CEFA, #f0f8ff); /* fallback background */
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Live video background */
+#bg-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    object-fit: cover;
+}
+
+/* Main content wrapper */
+.container {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+}
+
+/* Header layout */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+/* Logo styling */
+.logo {
+    width: 40px;
+    height: 40px;
+}
+
+/* Heading style */
+h1 {
+    font-size: 2rem;
+    color:yellow;
+}
+
+/* Card styling for the weather box */
+.weather-card {
+    background:rgb(113, 113, 207);
+    padding: 20px;
+    min-height: 250px;
+}
+
+/* Input field style */
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size:20px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+/* Search button styling */
+button {
+    padding: 10px 20px;
+    font-size:20px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto 10px auto;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Weather info styles */
+#weather-info {
+    font-size:20px;
+    color:yellow;
+    text-align: center;
+}
