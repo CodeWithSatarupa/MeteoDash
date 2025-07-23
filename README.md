@@ -20,6 +20,3 @@ MeteoDash is a sleek and simple weather dashboard that shows real-time weather d
 - Open-Meteo Geocoding API
 - Open-Meteo Weather API
 
-## ✍️ Author
-Satarupa Pati
-
